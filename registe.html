@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link type="image/x-icon" rel="shortcut icon" href="//cbu01.alicdn.com/favicon.ico">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/registe.css">
+	<link rel="stylesheet" href="./css/reg.css">
+</head>
+
+<body>
+	<!-- 导航栏 -->
+    <div id="head-fill"></div>
+    <!-- reg -->
+    <div class="con">
+        <div class="head">
+            <a href="#" class="reg"><img src="img/2331131_1367035968.png"/><h1>|注册</h1></a>
+        </div>
+        <div class="body">
+            <table cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td class="text">用户名</td>
+                    <td class="td">
+                        <input type="text" placeholder="请输入您的用户名" id="user">
+                        <span></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text">登录密码</td>
+                    <td class="td">
+                        <input type="password" id="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text">确认密码</td>
+                    <td class="td">
+                        <input type="password" id="confirm">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text">手机号码</td>
+                    <td class="td">
+                        <input type="text" placeholder="请输入您的手机号码" id="phone">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text">验证码</td>
+                    <td class="td">
+                        <input type="text" style="width: 160px; margin-right: 5px;" id="code">
+                        <div class="verification" id="yanzheng">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <p class="clause">
+                <input type="checkbox" style="width: 12px;height: 12px;" class="check">
+               创建网站账号的同时，我同意遵守：
+                <a href="">《阿里巴巴服务条款》</a>
+                和
+                <a href="#">《隐私声明》</a>
+            </p>
+            <button id="btn">立即注册</button>
+        </div>
+    </div>
+	<!--最下面的-->
+	<div id="bottom-fill"></div>
+	<script type="module">
+		import Registe from "./js/Registe.js"
+		new Registe()
+
+	</script>
+</body>
+	<script src="./js/BXWquery.js"></script>
+	<script type="module">
+        import  Ajax from "./js/Ajax.js"
+        var phone, password, confirm,  btn, check,user;
+        var verification = "";
+        init();
+        random();
+        
+    </script>
+
+</html>

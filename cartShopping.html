@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet"  href="css/cart.css"/>
+    
+</head>
+<body>
+	 <!-- 导航栏 -->
+    <div id="head-fill"></div>
+    <!--内容-->
+     <div class="shopping">
+	  <div class="header clearfix">
+		   <ul>
+			   <li class="fl"><input type="checkbox" name="" class="all">全选</li>
+			   <li class="fl">商品</li>
+			   <li class="fl">单价</li>
+			   <li class="fl">数量</li>
+			   <li class="fl">价格</li>
+			   <li class="fl">操作</li>
+		    </ul>
+	  </div>
+	  <div class="content">
+		   <dl>
+		   <dt>店铺：</dt>
+		   <dd>
+		    <ul>
+		    <li class="fl"><input type="checkbox" name="" class="ischeck"></li>
+		    <li class="fl">
+		     <img src="img/13728340823_588809771.220x222.jpg" />
+		     <span>耳钉</span>
+		    </li>
+		    <li class="fl">
+		     <s>$<span class="price">3.8</span></s>
+		    </li>
+		    <li class="fl">
+		     <span class="minus">-</span>
+		     <input type="text" name="" class="count" value="1">
+		     <span class="plus">+</span>
+		    </li>
+		    <li class="fl">
+		     <s>$<span class="price_sum">3.8</span></s>
+		    </li>
+		    <li class="fl">
+		     <span class="del">删除</span>
+		    </li>
+		    </ul>
+		   </dd>
+		   </dl>
+		   <dl>
+	   <dt>店铺：</dt>
+		   <dd>
+		    <ul>
+		    <li class="fl"><input type="checkbox" name="" class="ischeck"></li>
+		    <li class="fl">
+		     <img src="img/21695400705_1446414311.220x220.jpg" />
+		     <span>睡衣</span>
+		    </li>
+		    <li class="fl">
+		     <s>$<span class="price">99</span></s>
+		    </li>
+		    <li class="fl">
+		     <span class="minus">-</span>
+		     <input type="text" name="" class="count" value="1">
+		     <span class="plus">+</span>
+		    </li>
+		    <li class="fl">
+		     <s>$<span class="price_sum">99</span></s>
+		    </li>
+		    <li class="fl">
+		     <span class="del">删除</span>
+		    </li>
+		    </ul>
+		   </dd>
+		   </dl>
+		   <dl>
+		   <dt>店铺：</dt>
+		   <dd>
+		    <ul>
+		    <li class="fl"><input type="checkbox" name="" class="ischeck"></li>
+		    <li class="fl">
+		     <img src="img/23134138732.jpg_300x300.jpg" />
+		     <span>长靴</span>
+		    </li>
+		    <li class="fl">
+		     <s>$<span class="price">300</span></s>
+		    </li>
+		    <li class="fl">
+		     <span class="minus">-</span>
+		     <input type="text" name="" class="count" value="1" >
+		     <span class="plus">+</span>
+		    </li>
+		    <li class="fl">
+		     <s>$<span class="price_sum">300</span></s>
+		    </li>
+		    <li class="fl">
+		     <span class="del">删除</span>
+		    </li>
+		    </ul>
+		   </dd>
+		   </dl>
+		  </div>
+	    <div class="footer clearfix">
+		   <div class="footlf fl">
+				   <input type="checkbox" name="" class="all_is">反选
+				   <input type="checkbox" name="" id="cancel">取消
+		   </div>
+		   <div class="footrg fr">
+				   <span>继续购物</span>
+				   <span>已选商品<s id="piece">0</s>件</span>
+				   <span>合计(不含运费)：￥<s class="sum_">0.00</s></span>
+				   <span>结算</span>
+		   </div>
+	   </div>
+    </div>
+ 
+    
+    
+	<!-- 底部 -->
+    <div id="bottom-fill"></div>
+    <script type="module">
+        import Index from "./js/Index.js"
+        new Index()
+    </script>
+</body>
+	<script src="js/cartsh.js"></script>
+
+</html>

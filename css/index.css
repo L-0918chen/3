@@ -1,0 +1,296 @@
+#Adver-fill {
+  background-image: url(https://img.alicdn.com/tfs/TB14I.QTpT7gK0jSZFpXXaTkpXa-1800-130.png);
+  background-color: #ff8033;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 90px; }
+  #Adver-fill a {
+    display: block;
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%; }
+
+.fill-content {
+  width: 100%;
+  }
+  .fill-content .search {
+    width: 1200px;
+    margin: 0 auto;
+    height: 156px; }
+    .fill-content .search .timeend {
+      background: url(../img/TB1eNF.iG61gK0jSZFlXXXDKFXa-156-56.png) no-repeat;
+      float: left;
+      position: relative;
+      height: 92px;
+      margin-top: 32px;
+      width: 248px; }
+      .fill-content .search .timeend div {
+        margin-top: 56px;
+        height: 26px;
+        line-height: 26px;
+        text-align: center;
+        overflow: hidden; }
+        .fill-content .search .timeend div span {
+          font-weight: inherit;
+          width: 21px;
+          display: inline-block;
+          margin-left: 20px; }
+        .fill-content .search .timeend div span:nth-child(1) {
+          margin-left: -32px; }
+    .fill-content .search .search-center {
+      float: left;
+      height: 156px;
+      overflow: hidden; }
+      .fill-content .search .search-center ul {
+        margin-top: 40px; }
+        .fill-content .search .search-center ul li {
+          float: left;
+          margin: 0 10px;
+          color: #fff;
+          padding: 2px 8px;
+          border-top-left-radius: 2px;
+          border-top-right-radius: 2px;
+          font-size: 12px;
+          user-select: none; }
+      .fill-content .search .search-center .search-center-i {
+        width: 735px;
+        height: 40px;
+        border: 2px solid #FF2900;
+        position: relative; }
+        .fill-content .search .search-center .search-center-i input {
+          outline: none;
+          position: absolute;
+          left: 2px;
+          top: 2px;
+          width: 580px;
+          height: 38px;
+          text-indent: 24px;
+          border: none;
+          background: #fff url(https://img.alicdn.com/tfs/TB18BfAfEY1gK0jSZFCXXcwqXXa-52-52.png) 527px center no-repeat;
+          background-size: 24px; }
+        .fill-content .search .search-center .search-center-i button {
+          position: absolute;
+          right: 0;
+          height: 100%;
+          color: white;
+          background-color: #FF2900;
+          text-align: center;
+          line-height: 40px;
+          font-size: 12px;
+          width: 173px;
+          outline: none;
+          border: none;
+          cursor: pointer; }
+    .fill-content .search .search-right {
+      float: left;
+      margin-left: 16px;
+      margin-top: 60px; }
+      .fill-content .search .search-right img {
+        width: 97px; }
+  .fill-content .banner {
+    width: 1200px;
+    margin: 0 auto; }
+    .fill-content .banner .banner-nav {
+      width: 200px;
+      height: 774px;
+      float: left; }
+      .fill-content .banner .banner-nav dl {
+        font-size: 14px;
+        background-color: white;
+        height: 774px; }
+        .fill-content .banner .banner-nav dl dt {
+          width: 200px;
+          height: 36px;
+          line-height: 36px;
+          text-align: center;
+          background-color: #FF4500; }
+          .fill-content .banner .banner-nav dl dt a {
+            color: #fff;
+            margin: 0 12px; }
+          .fill-content .banner .banner-nav dl dt a:hover {
+            border-bottom: 2px solid #fff; }
+        .fill-content .banner .banner-nav dl dd {
+          height: 49px;
+          width: 177px;
+          padding: 0px 0 0 24px; }
+          .fill-content .banner .banner-nav dl dd h2 a {
+            margin-right: 12px;
+            font-size: 14px;
+            color: black; }
+          .fill-content .banner .banner-nav dl dd a {
+            font-size: 12px;
+            color: #888888; }
+    .fill-content .banner .banner-right {
+      float: left;
+      height: 774px;
+      width: 1000px; }
+      .fill-content .banner .banner-right .banner-top {
+        height: 36px;
+        width: 100%;
+        background-color: #FF681F; }
+        .fill-content .banner .banner-right .banner-top ul {
+          font-size: 16px;
+          text-align: center;
+          line-height: 36px;
+          margin-left: 36px;
+          font-weight: bold; }
+          .fill-content .banner .banner-right .banner-top ul li {
+            padding: 0 12px;
+            height: 100%;
+            float: left; }
+            .fill-content .banner .banner-right .banner-top ul li a {
+              color: white; }
+          .fill-content .banner .banner-right .banner-top ul li:hover {
+            background-color: #FF2900; }
+      .fill-content .banner .banner-right .banner-center {
+        box-sizing: border-box;
+        width: 1000px;
+        padding: 20px 16px;
+        height: 420px;
+        background-color: #F4F4F4;
+        position: relative; }
+        .fill-content .banner .banner-right .banner-center img {
+          position: absolute;
+          top: 20px;
+          left: 16px;
+          z-index: 0;
+          width: 968px;
+          height: 380px;
+          opacity: 0;
+          transition: all 2s; }
+        .fill-content .banner .banner-right .banner-center a {
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          border-radius: 50px;
+          z-index: 10;
+          color: white;
+          text-align: center;
+          line-height: 50px;
+          font-size: 50px;
+          background-color: rgba(255, 255, 255, 0.3);
+          top: 185px; }
+        .fill-content .banner .banner-right .banner-center a:nth-of-type(1) {
+          left: 40px; }
+        .fill-content .banner .banner-right .banner-center a:nth-of-type(2) {
+          right: 40px; }
+        .fill-content .banner .banner-right .banner-center ul {
+          position: absolute;
+          bottom: 20px;
+          z-index: 10; }
+          .fill-content .banner .banner-right .banner-center ul li {
+            float: left;
+            box-sizing: border-box;
+            width: 134px;
+            text-align: center;
+            height: 32px;
+            line-height: 32px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.3);
+            margin-right: 5px;
+            border-top: 2px solid transparent;
+            cursor: pointer; }
+            .fill-content .banner .banner-right .banner-center ul li:last-child {
+              margin: 0; }
+          .fill-content .banner .banner-right .banner-center ul .active {
+            color: #FF2900;
+            background-color: white;
+            border-top: 2px solid #FF2900; }
+      .fill-content .banner .banner-right .banner-bottom {
+        padding: 0 16px;
+        background-color: #F4F4F4; }
+        .fill-content .banner .banner-right .banner-bottom .banner-bottom-go {
+          width: 870px;
+          margin: 0 auto 16px; }
+          .fill-content .banner .banner-right .banner-bottom .banner-bottom-go li {
+            float: left;
+            border: 1px solid #cccccc;
+            cursor: pointer; }
+        .fill-content .banner .banner-right .banner-bottom .banner-list {
+          width: 100%; }
+          .fill-content .banner .banner-right .banner-bottom .banner-list li {
+            float: left;
+            cursor: pointer; }
+            .fill-content .banner .banner-right .banner-bottom .banner-list li img {
+              width: 161px;
+              height: 80px; }
+  .fill-content .good-list {
+    width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 0 0 6px 24px; }
+    .fill-content .good-list h2 {
+      width: 100%;
+      height: 60px;
+      line-height: 60px;
+      text-align: left;
+      overflow: hidden;
+      font-size: 20px;
+      color: #222;
+      font-weight: normal; }
+      .fill-content .good-list h2 p {
+        display: inline-block;
+        font-size: 12px;
+        color: #888;
+        margin-left: 10px; }
+      .fill-content .good-list h2 a {
+        float: right;
+        font-size: 12px;
+        color: #888;
+        margin-right: 24px; }
+      .fill-content .good-list h2 a:hover {
+        color: #ff2900; }
+    .fill-content .good-list ul li {
+      float: left;
+      width: 214px;
+      height: 354px;
+      border: 1px solid #f2f2f2;
+      margin: 0 18px 18px 0; }
+      .fill-content .good-list ul li a {
+        text-decoration: none; }
+        .fill-content .good-list ul li a img {
+          width: 100%; }
+        .fill-content .good-list ul li a p {
+          line-height: 30px;
+          height: 30px;
+          overflow: hidden;
+          font-size: 14px;
+          margin: 8px 10px;
+          color: #222; }
+        .fill-content .good-list ul li a h3 {
+          font-size: 24px;
+          margin: 0 10px 8px;
+          color: #ff2900; }
+          .fill-content .good-list ul li a h3 span {
+            font-size: 12px; }
+        .fill-content .good-list ul li a div {
+          border-top: 1px solid #f2f2f2;
+          font-size: 12px;
+          padding-left: 10px;
+          padding-right: 10px;
+          padding-top: 8px;
+          margin-top: -4px; }
+          .fill-content .good-list ul li a div span {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            font-size: 12px;
+            color: #999;
+            line-height: 18px; }
+          .fill-content .good-list ul li a div .company {
+            width: 100px;
+            display: inline-block; }
+          .fill-content .good-list ul li a div .province {
+            width: 66px;
+            margin-left: 20px;
+            display: inline-block; }
+    .fill-content .good-list ul li:nth-of-type(5n) {
+      margin: 0 0 18px 0; }
+    .fill-content .good-list ul li:hover {
+      border: 1px solid #ff2900; }
+    .good-list ul{
+    	float: left;
+    }
+
+/*# sourceMappingURL=index.css.map */

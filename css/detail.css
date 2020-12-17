@@ -1,0 +1,260 @@
+.search-fill {
+  border-bottom: 1px solid #ff7300;
+  height: 38px;
+  padding: 15px 0;
+  background-color: #f6f6f6;
+  width: 100%; }
+  .search-fill .search {
+    width: 1200px;
+    margin: 0 auto; }
+    .search-fill .search .search-left {
+      float: left; }
+    .search-fill .search .search-right {
+      float: right; }
+      .search-fill .search .search-right input {
+        padding: 6px 4px;
+        border: 2px #ddd solid;
+        border-right: none;
+        height: 21px;
+        width: 229px;
+        text-indent: 0.5em;
+        outline: none; }
+      .search-fill .search .search-right button {
+        display: inline-block;
+        overflow: visible;
+        border: 0 none;
+        cursor: pointer;
+        background: #ff7300;
+        color: #fff;
+        font-weight: 400;
+        padding: 0 12px;
+        height: 36px;
+        line-height: 36px; }
+        .search-fill .search .search-right button:nth-of-type(1) {
+          margin-left: -5px; }
+        .search-fill .search .search-right button:nth-of-type(2) {
+          color: #ff7300;
+          border: 1px #ff7300 solid;
+          background: white; }
+
+.advert {
+  width: 100%;
+  height: 150px; }
+  .advert img {
+    width: 100%;
+    height: 150px; }
+
+.nav-fill {
+  width: 100%;
+  background: #4c0868 !important;
+  height: 30px; }
+  .nav-fill ul {
+    width: 1200px;
+    margin: 0 auto;
+    height: 30px; }
+    .nav-fill ul li {
+      float: left;
+      line-height: 30px;
+      text-align: center;
+      padding: 0 15px; }
+      .nav-fill ul li a {
+        color: white; }
+
+.content-fill {
+  width: 100%;
+  background: #fff; }
+  .content-fill .content {
+    width: 1200px;
+    margin: 0 auto;
+    height: 700px; }
+    .content-fill .content h2 {
+      padding: 14px 0;
+      font-size: 18px;
+      color: #222;
+      line-height: 20px; }
+      .content-fill .content h2 img {
+        float: left;
+        margin-right: 20px; }
+      .content-fill .content h2 span {
+        float: right;
+        line-height: 24px;
+        color: #aaa;
+        padding-right: 20px;
+        font-size: 12px;
+        font-weight: normal; }
+    .content-fill .content .content-left {
+      position: relative;
+      width: 380px; }
+      .content-fill .content .content-left .magnifier {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 380px;
+        height: 380px; }
+        .content-fill .content .content-left .magnifier img {
+          position: absolute;
+          width: 380px;
+          height: 380px;
+          left: 0;
+          top: 0; }
+        .content-fill .content .content-left .magnifier .scale {
+          position: absolute;
+          background-color: rgba(255, 255, 0, 0.3);
+          width: 179px;
+          height: 179px;
+          display: none;
+          left: 0;
+          top: 0;
+          cursor: move; }
+      .content-fill .content .content-left .big_magnifier {
+        position: absolute;
+        z-index: 99;
+        top: 0;
+        left: 390px;
+        width: 380px;
+        height: 380px;
+        display: none;
+        background-image: url(../img/4125561882_167422482.jpg); }
+        .content-fill .content .content-left .big_magnifier img {
+          width: 380px;
+          height: 380px; }
+      .content-fill .content .content-left ul {
+        position: absolute;
+        left: 20px;
+        top: 400px; }
+        .content-fill .content .content-left ul li {
+          float: left;
+          border: 1px solid transparent;
+          margin-right: 8px; }
+          .content-fill .content .content-left ul li:nth-of-type(5) {
+            margin: 0; }
+          .content-fill .content .content-left ul li img {
+            width: 60px;
+            height: 60px; }
+        .content-fill .content .content-left ul .active {
+          border: 1px solid red; }
+    .content-fill .content .content-right {
+      position: relative;
+      width: 640px;
+      left: 400px;
+      margin: 0; }
+      .content-fill .content .content-right .content-right-top {
+        height: 40px;
+        line-height: 40px;
+        background-color: #f8f8f8; }
+        .content-fill .content .content-right .content-right-top span {
+          font-size: 16px;
+          display: inline-block;
+          width: 120px;
+          text-align: center;
+          color: #ff6666;
+          border-top: 2px solid #ff6666; }
+          .content-fill .content .content-right .content-right-top span:nth-of-type(2) {
+            color: #333;
+            border-top: transparent; }
+      .content-fill .content .content-right .content-right-one {
+        margin: 10px 0px; }
+        .content-fill .content .content-right .content-right-one .right-advert {
+          background: url(https://img.alicdn.com/tfs/TB1gKGsl639YK4jSZPcXXXrUFXa-1280-80.png);
+          background-size: 100% 100%;
+          padding: 9px 0;
+          height: 16px;
+          line-height: 16px;
+          font-size: 12px;
+          color: white; }
+          .content-fill .content .content-right .content-right-one .right-advert img {
+            float: left;
+            width: 37px;
+            margin: 0 5px; }
+          .content-fill .content .content-right .content-right-one .right-advert .advert-right {
+            float: right;
+            margin-right: 12px; }
+            .content-fill .content .content-right .content-right-one .right-advert .advert-right span {
+              background-color: #ff0026; }
+        .content-fill .content .content-right .content-right-one .price {
+          height: 70px;
+          padding: 10px;
+          background-color: #fff8f2; }
+          .content-fill .content .content-right .content-right-one .price span:nth-of-type(1) {
+            width: 72px;
+            line-height: 70px;
+            height: 70px;
+            color: #888888;
+            font-size: 12px; }
+          .content-fill .content .content-right .content-right-one .price span:nth-of-type(2) {
+            font-weight: bold;
+            color: #ff5000;
+            font-size: 18px; }
+          .content-fill .content .content-right .content-right-one .price span:nth-of-type(3) {
+            font-weight: bolder;
+            color: #ff5000;
+            font-size: 30px; }
+      .content-fill .content .content-right .content-right-two img {
+        width: 640px; }
+      .content-fill .content .content-right .content-right-three {
+        margin: 15px 0;
+        padding: 20px 10px;
+        font-size: 12px;
+        color: #888888; }
+        .content-fill .content .content-right .content-right-three span:nth-of-type(1) {
+          color: #ff6000;
+          margin: 0 40px; }
+      .content-fill .content .content-right .content-right-four {
+        font-size: 12px;
+        color: #888888;
+        margin-bottom: 15px; }
+        .content-fill .content .content-right .content-right-four span {
+          width: 20px;
+          padding: 4px 6px;
+          border: 1px solid #cccc;
+          margin: 0 20px;
+          border-radius: 3px;
+          cursor: pointer;
+          user-select: none; }
+        .content-fill .content .content-right .content-right-four .active {
+          color: red;
+          border-color: red; }
+      .content-fill .content .content-right .content-right-five {
+        font-size: 0;
+        color: #888888;
+        margin-bottom: 15px; }
+        .content-fill .content .content-right .content-right-five span {
+          font-size: 16px;
+          float: left;
+          text-align: center;
+          line-height: 20px;
+          cursor: pointer;
+          width: 20px;
+          height: 20px;
+          border: 1px solid #cccc; }
+        .content-fill .content .content-right .content-right-five span:nth-of-type(1) {
+          border: none;
+          font-size: 12px;
+          text-align: left;
+          width: 70px; }
+        .content-fill .content .content-right .content-right-five input {
+          float: left;
+          border-left: none;
+          border-right: none;
+          border-top: 1px solid #cccccc;
+          border-bottom: 1px solid #cccccc;
+          text-align: center;
+          outline: none;
+          width: 120px;
+          height: 20px; }
+      .content-fill .content .content-right button {
+        width: 160px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        background-color: #f4001c;
+        text-align: center;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-left: 120px; }
+
+/*# sourceMappingURL=detail.css.map */

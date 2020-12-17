@@ -1,0 +1,68 @@
+.cart-fill{
+    width: 100%;
+    background-color: #ffffff;
+    .cart{
+        width: 1200px;
+        margin: 0 auto;
+        &>ul{
+            width: 1200px;
+            margin-top: 40px;
+            li:nth-of-type(1){
+                ul{
+                    width: 1200px;
+                    height: 36px;
+                    padding: 0 10px;
+                    background-color: #ECECEC;
+                    li {
+                        float: left;
+                        text-align: center;
+                        width: 171px;
+                        font-size: 16px;
+                        font-weight: bold;
+                        line-height: 36px;
+                    }
+                }
+            }
+            li{
+                ul{
+                    width: 1200px;
+                    height: 80px;
+                    padding: 20px;
+                    margin: 20px 0;
+                    border: 1px solid #eeeeee;
+                    li{
+                        float: left;
+                        text-align: center;
+                        width: 171px;
+                        font-weight: normal;
+                        word-wrap:break-word;  
+                        word-break:break-all;  
+                        font-size: 16px;
+                        img{
+                            width: 80px;
+                            float: left;
+                            vertical-align: middle;
+                        }
+                        input{
+                            vertical-align: middle;
+                            float: left;
+                            width: 80px;
+                            text-align: center;
+                            outline: none;
+                            height: 24px;
+                            margin-top: 8px;
+                            border: none;
+                        }
+                        span{
+                            border: 1px solid #cccc;
+                            float: left;
+                            cursor: pointer;
+                            padding: 5px 10px;
+                            background-color: #eeeeee;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

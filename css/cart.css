@@ -1,0 +1,128 @@
+.fl{
+  float: left;
+  }
+  .fr{
+  float: right;
+  }
+  .clearfix{
+  clear: both;
+  zoom: 1;
+  }
+  .shopping{
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 14px;
+  }
+  .shopping .header{
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: #ccc;
+  color: #000000;
+  font-weight: bold;
+  text-align: left;
+  }
+  .shopping .header ul{
+  padding-left: 30px;
+  }
+  .shopping .header ul li{
+  width: 190px;
+  list-style: none;
+  }
+  .shopping .footer{
+  width: 100%;
+  height: 50px;
+  background: #ccc;
+  color: #000000;
+  text-align: left;
+  }
+  .shopping .footer .footlf{
+  width: 200px;
+  line-height: 50px;
+  margin-left: 30px;
+  }
+  .shopping .footer .footrg{
+  width: 600px;
+  text-align:right;
+  
+  }
+  .shopping .footer .footrg span:nth-child(1){
+  display: inline-block;
+  padding: 0px 25px;
+  background: black;
+  color: white;
+  line-height: 48px;
+  margin-right: 20px;
+  }
+  .shopping .footer .footrg span:nth-child(2),.shopping .footer .footrg span:nth-child(3){
+  display: inline-block;
+  margin-right: 20px;
+  }
+  .shopping .footer .footrg span:nth-child(4){
+  font-size:16px;
+  font-weight: bold;
+  line-height: 50px;
+  margin-right: 50px;
+  }
+  .shopping .footer .footrg s{
+  color: red;
+  }
+  .content{
+  margin: 10px 0px;
+  }
+  .content dl{
+  margin-bottom: 20px;
+  }
+  .content dl dt{
+  border: 1px solid #CCCCCC;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  }
+  .content dl dt{
+  padding-left: 20px;
+  }
+  .content dl dd{
+  padding-left: 20px;
+  border: 1px solid #CCCCCC;
+  height: 100px;
+  line-height: 100px;
+  border-top: none;
+  }
+  .content dl dd ul li{
+  list-style: none;
+  }
+  .content dl dd ul li img{
+  width: 80px;
+  height: 80px;
+  vertical-align: middle;
+  }
+  .content dl dd ul li{
+  width: 190px;
+  }
+  .content dl dd ul li s{
+  color: red;
+  font-weight: bold;
+  }
+  .content dl dd ul li input{
+  width: 30px;
+  }
+  s{
+  text-decoration: none;
+  }
+  .content .del{
+  cursor: pointer;
+  }
+  .minus{
+  padding: 0px 10px;
+  background: red;
+  cursor: pointer;
+  }
+  .plus{
+  padding: 0px 10px;
+  background: red;
+  cursor: pointer;
+  }
+  input{
+  cursor: pointer;
+  }

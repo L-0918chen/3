@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link type="image/x-icon" rel="shortcut icon" href="//cbu01.alicdn.com/favicon.ico">
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+
+	<!--导航-->
+	<div id="head-fill"></div>
+
+	<!--内容主题-->
+	<div class="content-wrap">
+		<div class="contenLog">
+			<img src="img/2331131_1367035968.png"/>
+		</div>
+		<div class="contenLo">
+			<h1>登录</h1>
+		</div>
+		<div class="contenT"><img src="img/TB1gYwfsvzO3e4jSZFxXXaP_FXa-555-344.png"/></div>
+		<div class="content">
+			<ul>
+				<li>
+					<a href="javaScript:;" class="password-login">账号密码登录</a>
+					<a href="javaScript:;" class="phone-login">手机验证登录</a>
+				</li>
+				<li>
+					<input type="text" placeholder="请输入你的账号" class="password" />
+					<input type="text" placeholder="请输入你的手机号" class="phone" />
+				</li>
+				<li>
+					<input type="password" placeholder="输入密码" class="password" />
+					<div class="phone">
+						<input type="password" placeholder="短信验证码" />
+						<a href="javaScript:;">获取验证码</a>
+					</div>
+				</li>
+				<li>
+					<p>
+						<input type="button" value="登录" />
+					</p>
+				</li>
+				<li>
+					<span>
+						<input type="checkbox" /> 记住账号
+						<a href="javaScript:;">忘记密码</a>
+						<a href="javaScript:;">去注册</a>
+					</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!--最下面的-->
+	<div id="bottom-fill"></div>
+	<script type="module">
+		import Login from "./js/Login.js"
+		new Login()
+	</script>
+</body>
+
+</html>
